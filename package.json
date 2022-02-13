@@ -19,5 +19,8 @@
   "homepage": "https://github.com/MasterKho/gps#readme",
   "dependencies": {
     "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "prettier": "2.5.1"
   }
 }
