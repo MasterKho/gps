@@ -15,7 +15,7 @@
 .nav__list{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    
     align-items: center;
 }
 .nav__item{
@@ -23,4 +23,35 @@
     height: 40px;
     background-color:#FF3E79;
     border-radius: 50%;
+    padding: 16px;
+}
+.nav__item:hover{
+    background-color:#f082a3; 
+}
+
+.nav__link--active{
+ background-image: url(img/burger.png);
+ background-repeat: no-repeat;
+ background-position: center;
+}
+.nav__logo{
+    background-image: url(/img/Group-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.button--service{
+ background-image: url(img/service.png);
+ background-repeat: no-repeat;
+ background-position: center;
+}
+.button--search{
+ background-image: url(img/search.png);
+ background-repeat: no-repeat;
+ background-position: center;
+}
+.nav__link--vl{
+    border-left: 2px solid #EAEAEA;
+    height: 32px;
+    border-radius: 1px;
 }
