@@ -11,6 +11,9 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="css/settings.css" />
+    <link rel="stylesheet" href="css/extends-class.css" />
+    <link rel="stylesheet" href="css/img-class.css" />
     <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/main.css" />
     <link
@@ -21,113 +24,81 @@
     <title>CPS</title>
   </head>
   <body>
-    <div class="wrapper">
-      <header class="header">
-        <div class="header__container">
-          <nav class="header__menu menu">
-            <ul class="menu__list">
-              <li class="menu__item">
-                <a href="#" class="menu__button button--nav" type="button"></a>
-              </li>
-              <li class="menu__item">
-                <a href="#" class="menu__logo"
-                  ><img
-                    src="assets/img/Group-1.png"
-                    alt="logotype"
-                    style="width: 96px; height: 50px"
-                /></a>
-              </li>
-              <li class="menu__item"><a class="menu__vl"></a></li>
-              <li class="menu__item">
-                <a
-                  href="#"
-                  class="menu__button button--service"
-                  type="button"
-                ></a>
-              </li>
-              <li class="menu__item">
-                <a
-                  href="#"
-                  class="menu__button button--search"
-                  type="button"
-                ></a>
-              </li>
-              <li class="menu__item" style="visibility: hidden">
-                <a class="menu__vl"></a>
-              </li>
-              <li class="menu__item" style="visibility: hidden">
-                <a href="" class="menu__button button--phon" type="button"></a>
-              </li>
-              <li class="menu__item" style="visibility: hidden">
-                <a
-                  href=""
-                  class="menu__button button--message"
-                  type="button"
-                ></a>
-              </li>
-              <li class="menu__item" style="visibility: hidden">
-                <a
-                  href=""
-                  class="menu__button button--contact"
-                  type="button"
-                ></a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </header>
-      <main class="main">
-        <div class="main__container">
-          <div class="main__container--title">
-            <span><img src="assets/img/highlight (1).png" /></span>
-            <h1>Услуги и сервисы</h1>
-          </div>
-          <nav class="main__list">
-            <ul class="main__item item">
-              <li>
-                <a class="item__button--first" type="button" href="#"
-                  >Ремонтируемые устройства</a
-                >
-              </li>
-              <li>
-                <a class="item__button--secondary" type="butoon" href="#"
-                  >Дополнительные услуги</a
-                >
-              </li>
-              <li style="visibility: hidden">
-                <a class="item__button--third" type="butoon" href="#"
-                  >Цены на услуги</a
-                >
-              </li>
-              <li style="visibility: hidden">
-                <a class="item__button--fourth" type="butoon" href="#"
-                  >Специальные цены</a
-                >
-              </li>
-            </ul>
-          </nav>
-
-          <aside class="main__sidebar">
-            <p class="main__sidebar--text">
-              Мы являемся авторизованным сервисным центром по ремонту техники
-              Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с
-              официальной гарантией производителя.
-            </p>
-            <p class="main__sidebar--subtext" hidden>
-              Мы успешно работаем с 1992 года и заслужили репутацию надежного
-              партнера
-            </p>
-            <div class="main__sidebar--subtitle">
-              <a class="main__sidebar subtitle--v2" href="#"></a>
-              <h3>Читайте далее</h3>
+    <header class="menu">
+      <nav class="menu__nav">
+        <div class="menu__items">
+          <div class="menu__item gap-2">
+            <div class="menu__burger">
+              <span class="menu__anchor"></span>
             </div>
-          </aside>
-
-          <div class="main__image">
-            <img src="assets/img/_MG_3223.jpg" alt="CPS-image" />
+            <span class="menu__divider"></span>
+            <a href="#" class="menu__logo"></a>
           </div>
-        </div>
-      </main>
-    </div>
+          <div class="menu__item">
+            <div class="menu__links gap-3">
+              <a href="#" class="menu__link phone-icon"></a>
+              <a href="#" class="menu__link message-icon"></a>
+              <a href="#" class="menu__link contacts-icon"></a>
+            </div>
+            <div class="menu__links gap-3">
+              <span class="menu__divider"></span>
+              <a href="#" class="menu__link"></a>
+              <a href="#" class="menu__link"></a>
+            </div>
+          </div>
+      </nav>
+    </header>
+    <!--      <main class="main">-->
+    <!--        <div class="main__container">-->
+    <!--          <div class="main__container&#45;&#45;title">-->
+    <!--            <span><img src="assets/img/highlight (1).png" /></span>-->
+    <!--            <h1>Услуги и сервисы</h1>-->
+    <!--          </div>-->
+    <!--          <nav class="main__list">-->
+    <!--            <ul class="main__item item">-->
+    <!--              <li>-->
+    <!--                <a class="item__button&#45;&#45;first" type="button" href="#"-->
+    <!--                  >Ремонтируемые устройства</a-->
+    <!--                >-->
+    <!--              </li>-->
+    <!--              <li>-->
+    <!--                <a class="item__button&#45;&#45;secondary" type="butoon" href="#"-->
+    <!--                  >Дополнительные услуги</a-->
+    <!--                >-->
+    <!--              </li>-->
+    <!--              <li style="visibility: hidden">-->
+    <!--                <a class="item__button&#45;&#45;third" type="butoon" href="#"-->
+    <!--                  >Цены на услуги</a-->
+    <!--                >-->
+    <!--              </li>-->
+    <!--              <li style="visibility: hidden">-->
+    <!--                <a class="item__button&#45;&#45;fourth" type="butoon" href="#"-->
+    <!--                  >Специальные цены</a-->
+    <!--                >-->
+    <!--              </li>-->
+    <!--            </ul>-->
+    <!--          </nav>-->
+
+    <!--          <aside class="main__sidebar">-->
+    <!--            <p class="main__sidebar&#45;&#45;text">-->
+    <!--              Мы являемся авторизованным сервисным центром по ремонту техники-->
+    <!--              Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с-->
+    <!--              официальной гарантией производителя.-->
+    <!--            </p>-->
+    <!--            <p class="main__sidebar&#45;&#45;subtext" hidden>-->
+    <!--              Мы успешно работаем с 1992 года и заслужили репутацию надежного-->
+    <!--              партнера-->
+    <!--            </p>-->
+    <!--            <div class="main__sidebar&#45;&#45;subtitle">-->
+    <!--              <a class="main__sidebar subtitle&#45;&#45;v2" href="#"></a>-->
+    <!--              <h3>Читайте далее</h3>-->
+    <!--            </div>-->
+    <!--          </aside>-->
+
+    <!--          <div class="main__image">-->
+    <!--            <img src="assets/img/_MG_3223.jpg" alt="CPS-image" />-->
+    <!--          </div>-->
+    <!--        </div>-->
+    <!--      </main>-->
   </body>
 </html>
