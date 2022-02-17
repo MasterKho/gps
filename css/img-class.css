@@ -1,0 +1,17 @@
+.phone-icon {
+  background-image: url("../assets/svg/phone.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.message-icon {
+  background-image: url("../assets/svg/message.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.contacts-icon {
+  background-image: url("../assets/svg/contacts.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
