@@ -101,3 +101,17 @@
   margin-left: 20px;
 }
 
+@media (max-width: 320px) and (max-width: 768px) { 
+  .header{ 
+    width:100%;
+  } 
+.menu__burger ~ .menu__divider {
+  display: none;
+}
+}
+
+@media (max-width: 320px) {
+  .menu__links ~ .phone-icon {
+    display: none;
+  }
+}
