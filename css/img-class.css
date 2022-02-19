@@ -15,13 +15,15 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+
 .service-icon {
   background-image: url("../assets/svg/service.svg");
   background-position: center;
   background-repeat: no-repeat;
 }
+
 .search-icon {
-  background-image: url("../assets/svg/contacts.svg");
+  background-image: url("../assets/svg/search.svg");
   background-position: center;
   background-repeat: no-repeat;
 }
