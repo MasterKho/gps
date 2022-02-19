@@ -105,21 +105,27 @@
   .header{ 
     width:100%;
   } 
+
 .menu__burger ~ .menu__divider {
   display: none;
 }
+
 .phone-icon{
   display: none ;
 }
+
 .phone-icon + .message-icon {
   display: none;
 }
+
 .message-icon + .contacts-icon {
   display: none;
 }
+
 .menu__nav{
 width: 100%;
 display: flex;
 justify-content: space-around;
 }
+
 }
