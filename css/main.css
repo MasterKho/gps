@@ -1,33 +1,18 @@
-.main {
-  display: flex;
-  flex-direction: column;
-  width: 320px;
-  height: 509px;
-  background: #f8f8f8;
-  margin-left: -320px;
-  margin-top: 88px;
-}
-
 .main__container {
+  width: 100%;
+  height: 509px;
+  min-width: 320px;
   display: flex;
   flex-direction: column;
-  flex: 0 0 1;
-  max-width: 100%;
-  max-height: 100%;
+  background: #f8f8f8;
+ 
 }
 
-.main__container--title {
+.main__title {
   display: inline-flex;
   align-items: center;
-  width: 320px;
-  height: 64px;
   margin: 24px 16px;
-  margin-left: 0;
-}
-
-.main__title:first-child {
-  margin-top: 24px;
-  height: 40px;
+ 
 }
 
 h1 {
@@ -134,6 +119,7 @@ h2 {
   height: 230, 8px;
 }
 
+/*
 @media screen and (max-width: 1120px) {
   .header__container {
     width: 100%;
