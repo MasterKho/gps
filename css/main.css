@@ -1,6 +1,6 @@
-.main__container {
+.content {
   width: 100%;
-  height: 509px;
+  height: 416px;
   min-width: 320px;
   display: flex;
   flex-direction: column;
@@ -8,36 +8,30 @@
  
 }
 
-.main__title {
+.content__title {
   display: inline-flex;
   align-items: center;
-  margin: 24px 16px;
+  margin: 24px 0 32px 16px;
+  height: 40px;
+  width: 233px;
+  font-size: 28px;
+  letter-spacing: 0em;
  
 }
-.menu__highliht{
-  border-left: 2px solid black
+
+.content__nav{
+width: 100%;
 }
 
-h1 {
-  height: 40px;
-  width: 288px;
-  margin: 16px;
-  font-size: 28px;
-  margin-top: 24px;
-  letter-spacing: 0em;
-}
-
-.main__list {
+.content__links {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
   white-space: nowrap;
   margin: 0 16px;
 }
 
-.main__item {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+.content__link{
   align-items: baseline;
   letter-spacing: -0.2px;
   color: #7e7e82;
@@ -45,8 +39,7 @@ h1 {
   margin: 0;
 }
 
-.item__button--first {
-  width: 246px;
+.link-first {
   background: #ffffff;
   border: 2px solid #b8ffec;
   box-sizing: border-box;
@@ -56,42 +49,39 @@ h1 {
   color: #7e7e82;
 }
 
-li .item__button {
-  padding: 16px;
-}
-
-.main__sidebar {
+.content__sidebar{
+  width: 100%;
+  height: 208px;
   display: flex;
   flex-direction: column;
-  margin: 16px;
+  margin-top: 32px;
+  
+
 }
-.main__sidebar--text {
+.content__text {
   width: 100%;
+  height: 160px;
+  margin-left: 24px;
   font-size: 16px;
   line-height: 22px;
   letter-spacing: 0.2px;
   color: #1b1c21;
 }
 
-.main__sidebar--subtitle {
+.content__subtitle {
   display: inline;
-  text-align: start;
+  white-space: nowrap;
   margin-left: 24px;
-  margin-top: 16px;
-  width: 150px;
+  width: 100px;
   height: 24px;
 }
 
-.subtitle--v2 {
-  height: 3px;
-  width: 8px;
-  margin-left: 24px;
-  position: relative;
-  padding: 0;
-  margin-top: 16px;
+.content__image {
+  width: 100%;
 }
-.subtitle--v2:before,
-.subtitle--v2:after {
+/*
+.content__subtitle:before,
+.content__subtitle:after {
   content: '';
   height: 100%;
   width: 50%;
@@ -99,28 +89,18 @@ li .item__button {
   top: 0;
   background: #a3ffe7;
 }
-.subtitle--v2:before {
+.content__subtitle:before {
   left: 0;
   transform: skew(0deg, 40deg);
   border-radius: 5px 5px 0;
 }
-.subtitle--v2::after {
+.content__subtitle::after {
   right: 0;
   transform: skew(0deg, -40deg);
   border-radius: 5px 5px 5px 0;
 }
+*/
 
-h2 {
-  font-size: 16px;
-  line-height: 24px;
-  margin-left: 60px;
-  margin-top: 0;
-}
-.main__image {
-  position: relative;
-  max-width: 100%;
-  
-}
 
 /*
 @media screen and (max-width: 1120px) {
